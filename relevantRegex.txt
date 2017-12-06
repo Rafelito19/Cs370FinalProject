@@ -1,0 +1,16 @@
+current price
+(?<=<span class="current-price">)([^<]+)(?=</span>)
+
+
+
+number of bids
+(?<=<span class="num-bids">)([^<]+)(?=</span>)
+
+
+seller
+(?<=<a href="/peoria">)([^<]+)(?=</a>)
+
+
+
+so much info
+(?<=</b>)([^<]+)(?=</li>)
